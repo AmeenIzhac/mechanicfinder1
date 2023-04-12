@@ -1,0 +1,90 @@
+.titleDiv {
+  position: relative;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  position: absolute;
+  bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.contentDiv {
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+}
+
+.leftDiv {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightDiv {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divider1Div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divider1 {
+  height: 1px;
+  width: 70%;
+  background-color: #000;
+  box-shadow: 0 0 10px #000;
+  margin: 20px;
+  opacity: 0.5;
+}
+
+.divider2 {
+  width: 1px;
+  height: 100%;
+  background-color: #000;
+  box-shadow: 0 0 10px #000;
+  margin: 20px;
+  opacity: 0.5;
+}
+
+.getACall {
+  font-size: 1.8rem;
+  margin: 50px;
+}
+
+.input {
+  border: solid 1px;
+  border-radius: 20px;
+  padding: 30px;
+  width: 50%;
+  height: 12%;
+}
+
+.btn {
+  border: solid 1px;
+  border-radius: 20px;
+  padding: 10px;
+  width: 20%;
+  height: 10%;
+  margin: 30px;
+  background-color: rgb(194, 194, 194);
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.selectGarage {
+  font-size: 1.8rem;
+  margin: 50px;
+}

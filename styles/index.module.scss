@@ -1,0 +1,92 @@
+.nav {
+  height: 10vh;
+  padding: 30px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+}
+
+.leftDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.rightDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.inputReg {
+  border: solid 1px;
+  border-radius: 20px;
+  width: 60%;
+  height: 8%;
+  padding: 20px;
+}
+
+.enterReg {
+  font-size: 1.5rem;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.divider {
+  width: 1px;
+  height: 100%;
+  background-color: #000;
+  box-shadow: 0 0 10px #000;
+  margin: 20px;
+  opacity: 0.5;
+}
+
+.isYourCar {
+  font-size: 1.5rem;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.yesOrNo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn {
+  border: solid 1px;
+  border-radius: 20px;
+  width: 20%;
+  height: 80%;
+  margin: 20px;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.carName {
+  font-size: 1.5rem;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
